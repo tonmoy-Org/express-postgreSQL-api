@@ -2,11 +2,11 @@
   "name": "express-postgres-api",
   "version": "1.0.0",
   "description": "A RESTful API using Express.js and PostgreSQL",
-  "main": "src/server.js",
+  "main": "server.js",
   "type": "commonjs",
   "scripts": {
-    "dev": "nodemon src/server.js",
-    "start": "node src/server.js"
+    "dev": "nodemon server.js",
+    "start": "node server.js"
   },
   "author": "Your Name",
   "license": "ISC",

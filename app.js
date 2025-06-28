@@ -1,8 +1,8 @@
 const express = require("express");
 const cors = require("cors");
 require("dotenv").config();
-const postRoutes = require("./routes/post.routes");
-const errorHandler = require("./middlewares/errorHandler");
+const postRoutes = require("./app/routes/post.routes");
+const errorHandler = require("./app/middlewares/errorHandler");
 
 const app = express();
 
